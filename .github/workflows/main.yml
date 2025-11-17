@@ -35,4 +35,4 @@
                 docker pull prasad4156/sample-react-app-with-docker:latest
                 docker stop sample-react-app-with-docker || true
                 docker rm sample-react-app-with-docker || true
-                docker run -d --name sample-react-app-with-docker -p 80:80 prasad4156/sample-react-app-with-docker:latest
+                docker run -d --name sample-react-app-with-docker -p 3000:80 prasad4156/sample-react-app-with-docker:latest
